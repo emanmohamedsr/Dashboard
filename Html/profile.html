@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="icon" href="../images/favorite-.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    
+    <link rel="stylesheet" href="../css/profile.css">
+</head>
+<body>
+    <div class="page">
+        <!-- start sidebar -->
+        <div class="sidebar">
+            <div class="box">
+                <div class="user-name">Eman</div>        
+                <ul class="sections">
+                    <li><a href="../index.html" >
+                            <i class="fa-regular fa-chart-bar"></i>
+                            <p>Dashboard</p>
+                        </a>
+                    </li>
+                    <li><a href="settings.html" >
+                            <i class="fa-solid fa-gear"></i>
+                            <p>Settings</p>
+                        </a>
+                    </li>
+                    <li><a class="active " href="profile.html">
+                            <i class="fa-solid fa-user"></i>
+                            <p>Profile</p>
+                        </a>
+                    </li>
+                    <li><a href="projects.html"  >
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <p>Projects</p>
+                        </a>
+                    </li>
+                    <li><a href="courses.html"  >
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <p>Courses</p>
+                        </a>
+                    </li>
+                    <li><a href="friends.html"  >
+                            <i class="fa-solid fa-users"></i>
+                            <p>Friends</p>
+                        </a>
+                    </li>
+                    <li><a href="files.html"  >
+                            <i class="fa-solid fa-file"></i>
+                            <p>Files</p>
+                        </a>
+                    </li>
+                    <li><a href="plans.html"  >
+                            <i class="fa-solid fa-credit-card"></i>
+                            <p>Plans</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end sidebar -->
+        <!-- start main-content -->
+        <div class="main-content">
+            <!-- start navbar -->
+            <div class="navbar">
+                <div class="search">
+                    <i class="fa-solid fa-search "></i>
+                    <input type="search" placeholder="type a keyword">
+                </div>
+                <div class="info">
+                    <i class="far fa-bell"></i>
+                    <img  src="../images/my-avatar.jpg" alt="prfile photo">
+                </div>
+            </div>
+            <!-- end navbar -->
+            <!-- start container -->
+            <div class="container">
+                <h2 class="main-title">Profile</h2>
+                <!-- start content -->
+                <div class="content">
+                    <div class="upper-section">
+                        <div class="info">
+                            <img src="../images/my-avatar.jpg" alt="my-avatar">
+                            <h2>Eman Mohamed</h2>
+                            <p>Level 20</p>
+                            <div class="progress">
+                                <div class="bar" style="width: 75%"></div>
+                            </div>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="rating">
+                                <p>550 Rating</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div class="box">
+                                <h3>General Information</h3>
+                                <ul>
+                                    <li>Full Name: <span>Eman Soilman</span></li>
+                                    <li>Gender: <span>Female</span></li>
+                                    <li>Country: <span>Egypt</span></li>
+                                    <li>
+                                        <input class="toggle-checkbox" type="checkbox" id="toggle1" checked>
+                                        <label for="toggle1">
+                                            <div class="toggle-switch"></div>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box">
+                                <h3>Personal Information</h3>
+                                <ul>
+                                    <li>Email: <span>eman@gmail.com</span></li>
+                                    <li>Phone: <span>019123456789</span></li>
+                                    <li>Date Of Birth: <span>7/2/2004</span></li>
+                                    <li>
+                                        <input class="toggle-checkbox" type="checkbox" id="toggle2" >
+                                        <label for="toggle2">
+                                            <div class="toggle-switch"></div>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box">
+                                <h3>Job Information</h3>
+                                <ul>
+                                    <li>Title: <span>Full Stack Developer</span></li>
+                                    <li>Programming Language: <span>C++</span></li>
+                                    <li>Years Of Experience: <span>3+</span></li>
+                                    <li>
+                                        <input class="toggle-checkbox" type="checkbox" id="toggle3" checked>
+                                        <label for="toggle3">
+                                            <div class="toggle-switch"></div>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box">
+                                <h3>Billing Information</h3>
+                                <ul>
+                                    <li>Payment Method: <span>Paypal</span></li>
+                                    <li>Email: <span>email@website.com</span></li>
+                                    <li>Subscription: <span>Monthly</span></li>
+                                    <li>
+                                        <input class="toggle-checkbox" type="checkbox" id="toggle4" >
+                                        <label for="toggle4">
+                                            <div class="toggle-switch"></div>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="down-section">
+                        <div class="skills">
+                            <h3>My Skills</h3>
+                            <p>Complete Skills List</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>HTML5</li>
+                                <li>Pugjs</li>
+                            </ul>
+                            <ul>
+                                <li>CSS</li>
+                                <li>SASS</li>
+                                <li>Stylus</li>
+                            </ul>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>TypeScript</li>
+                            </ul>
+                            <ul>
+                                <li>Vuejs</li>
+                                <li>Reactjs</li>
+                            </ul>
+                            <ul>
+                                <li>Jest</li>
+                                <li>Jasmine</li>
+                            </ul>
+                            <ul >
+                                <li>PHP</li>
+                                <li>Laravel</li>
+                            </ul>
+                            <ul>
+                                <li>Python</li>
+                                <li>Django</li>
+                            </ul>
+                        </div>
+                        <div class="activities">
+                            <h3>Latest Activities</h3>
+                            <p>Latest Activities Done By The User</p>            
+                            <div class="activity">
+                                <img src="../images/activity-01.png" alt="activity">
+                                <div class="box">
+                                    <div class="text">
+                                        <h4>Store</h4>
+                                        <p>Bought The Mastering Python Course</p>
+                                    </div>
+                                    <div class="date">
+                                        <h4>18:10</h4>
+                                        <p>Yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="activity">
+                                <img src="../images/activity-02.png" alt="activity">
+                                <div class="box">
+                                    <div class="text">
+                                        <h4>Academy</h4>
+                                        <p>Got The PHP Certificate</p>
+                                    </div>
+                                    <div class="date">
+                                        <h4>16:05</h4> 
+                                        <p>Yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="activity">
+                                <img src="../images/activity-03.png" alt="activity">
+                                <div class="box">
+                                    <div class="text">
+                                        <h4>Badges</h4>
+                                        <p>Unlocked The 10 Skills Badge</p>
+                                    </div>
+                                    <div class="date">
+                                        <h4>18:05</h4>
+                                        <p>Yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="activity">
+                                <img src="../images/activity-01.png" alt="activity">
+                                <div class="box">
+                                    <div class="text">
+                                        <h4>Store</h4>
+                                        <p>Bought The Typescript Course</p>
+                                    </div>
+                                    <div class="date">
+                                        <h4>12:05</h4>
+                                        <p>Yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end content -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end main-content -->
+    </div>
+</body>
+</html>
